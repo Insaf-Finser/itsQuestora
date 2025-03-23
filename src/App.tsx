@@ -10,15 +10,12 @@ import {
   ChevronRight, 
   Github, 
   Linkedin,
-  Apple,
-  Cuboid as Android,
   Wand2,
   Twitter,
   Gamepad2,
   Crown,
   Shield,
   Rocket,
-  Heart
 } from 'lucide-react';
 
 function App() {
@@ -40,7 +37,7 @@ function App() {
     {
       name: "Georgy Prakash",
       role: "Lead Designer",
-      image: "georgy.jpg",
+      image: "src/assets/georgy.jpg",
       bio: "",
       github: "https://github.com/georgy-gp",
       Linkedin: "https://www.linkedin.com/in/georgy-prakashp-566233306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -48,7 +45,7 @@ function App() {
     {
       name: "Insaf Finser",
       role: "Lead Developer",
-      image: "insaf.jpg",
+      image: "src/assets/insaf.jpg",
       bio: "",
       github: "https://github.com/Insaf-Finser",
       Linkedin: "https://twitter.com/insaf"
@@ -56,7 +53,7 @@ function App() {
     {
       name: "Bipin Dev.B",
       role: "Story Director",
-      image: "devan.jpg",
+      image: "src/assets/devan.jpg",
       bio: "",
       github: "https://github.com/Bipindev01",
       Linkedin: "https://www.linkedin.com/in/bipindevb"
@@ -64,7 +61,7 @@ function App() {
     {
       name: "Jacob Cyriac",
       role: "Technical Artist",
-      image: "jacob.jpg",
+      image: "src/assets/jacob.jpg",
       bio: "",
       github: "https://github.com/jacobcyriac66",
       Linkedin: "https://www.linkedin.com/in/jacob-cyriac-92b9a8328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -319,7 +316,7 @@ function App() {
             <div className="flex flex-col md:flex-row justify-center gap-6">
               <a href="#" className="bg-white/80 backdrop-blur-sm hover:bg-white px-8 py-4 rounded-xl flex items-center justify-center space-x-3 transition-colors group shadow-lg">
               <img 
-                  src="apple.png" 
+                  src="src/assets/apple.png" 
                   alt="App Store" 
                   className="w-8 h-8 group-hover:opacity-80"
                 />
@@ -331,7 +328,7 @@ function App() {
           
               <a href="#" className="bg-white/80 backdrop-blur-sm hover:bg-white px-8 py-4 rounded-xl flex items-center justify-center space-x-3 transition-colors group shadow-lg">
                 <img 
-                  src="andriod.png" 
+                  src="src/assets/andriod.png" 
                   alt="App Store" 
                   className="w-8 h-8 group-hover:opacity-80"
                 />
